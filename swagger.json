@@ -1,0 +1,38 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "ContactList Project",
+        "description": "ContactList Project Application API",
+        "license": {
+            "name": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+        }
+    },
+    "host": "localhost:7000",
+    "basePath": "/",
+    "schemes": [
+        "http","https"
+    ],
+    "consumes": [
+        "application/json"
+    ],
+    "produces": [
+        "application/json"
+    ],
+    "paths": {
+        "/api/v1/healthcheck": {
+            "get": {
+                "tags": [
+                    "healthCheck"
+                ],
+                "summary": "Check server health",
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+          }
+    }
+}
