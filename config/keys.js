@@ -1,2 +1,2 @@
 module.exports = {
-    mongoURI: "mongodb://127.0.0.1:27017/contactlisttutto"};
+    mongoURI: "mongodb+srv://mouadhnino:azerty1234@cluster0.g40gtot.mongodb.net/contactlisttutto"};
